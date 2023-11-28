@@ -12,10 +12,10 @@ app.use(express.static("public"))
 app.set('view engine', 'ejs')
 
 
+// HwfTROYkX40Jg90j
 
 
-
-  mongoose.connect('mongodb://127.0.0.1:27017/todolist');
+  mongoose.connect('mongodb+srv://admin-sultan:HwfTROYkX40Jg90j@cluster0.db4gg.mongodb.net/todolist');
   const itemSchema = new mongoose.Schema({
     name:String
   })
